@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attendence</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_result_list">ResultList</string>
+    <string name="hide">Hide</string>
+    <string name="title_activity_insertintomysql">Insertintomysql</string>
+    <string name="title_activity_welcomepage">Welcomepage</string>
+    <string name="title_activity_addclass">Addclass</string>
+    <string name="title_activity_classlist">Classlist</string>
+    <string name="title_activity_delete">Delete</string>
+    <string name="title_activity_takeattendence">Takeattendence</string>
+    <string name="title_activity_attendencehome">Attendencehome</string>
+    <string name="title_activity_completeattendence">Completeattendence</string>
+    <string name="title_activity_absentlist">Absentlist</string>
+    <string name="title_activity_absentlistformate">Absentlistformate</string>
+
+</resources>

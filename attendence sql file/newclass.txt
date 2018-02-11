@@ -1,0 +1,40 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Oct 19, 2016 at 12:09 AM
+-- Server version: 5.1.30
+-- PHP Version: 5.2.8
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `attendence`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `newclass`
+--
+
+CREATE TABLE IF NOT EXISTS `newclass` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subject` varchar(20) NOT NULL,
+  `department` varchar(20) NOT NULL,
+  `section` varchar(20) NOT NULL,
+  `year` varchar(20) NOT NULL,
+  `rollfrom` varchar(20) NOT NULL,
+  `rollto` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=30 ;
+
+--
+-- Dumping data for table `newclass`
+--
+
+INSERT INTO `newclass` (`id`, `subject`, `department`, `section`, `year`, `rollfrom`, `rollto`) VALUES
+(29, '1', 'Computer Science', 'A', '2nd Year', '1', '45'),
+(28, '1', 'Computer Science', 'A', '1st year', '1', '100'),
+(24, '1', 'cs', 'a', '12', '1', '89');

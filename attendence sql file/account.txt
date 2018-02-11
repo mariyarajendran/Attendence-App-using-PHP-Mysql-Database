@@ -1,0 +1,43 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Oct 19, 2016 at 12:08 AM
+-- Server version: 5.1.30
+-- PHP Version: 5.2.8
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `attendence`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `account`
+--
+
+CREATE TABLE IF NOT EXISTS `account` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `rank` varchar(50) NOT NULL,
+  `department` varchar(10) NOT NULL,
+  `phone_number` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
+
+--
+-- Dumping data for table `account`
+--
+
+INSERT INTO `account` (`id`, `username`, `password`, `name`, `rank`, `department`, `phone_number`) VALUES
+(9, 'wala', '12345', 'naren', 'Associate Professor', 'PG', 2147483647),
+(8, 'naren', '123', 'narendran', 'Head and Associate Professor', 'UG', 2147483647),
+(10, 'Raj', '1', 'Raj', 'Head and Associate Professor', 'UG', 982398283),
+(11, '1', '1', 'a', 'Head and Associate Professor', 'UG', 2424242),
+(12, '1', '1', 'rah', 'Head and Associate Professor', 'UG', 76777),
+(13, '1', '1', '1', 'Head and Associate Professor', 'UG', 343);

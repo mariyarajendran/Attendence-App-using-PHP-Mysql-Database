@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attendence"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.attendence.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.attendence.Classlist"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.List"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.ResultList"
+            android:label="@string/title_activity_result_list" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Insertintomysql"
+            android:label="@string/title_activity_insertintomysql" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Welcomepage"
+            android:label="@string/title_activity_welcomepage" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Attendence"
+            android:label="@string/title_activity_addclass" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Addclass"
+            android:label="@string/title_activity_classlist" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Delete"
+            android:label="@string/title_activity_delete" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Takeattendence"
+            android:label="@string/title_activity_takeattendence" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Attendencehome"
+            android:label="@string/title_activity_attendencehome" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Completeattendence"
+            android:label="@string/title_activity_completeattendence" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Absentlist"
+            android:label="@string/title_activity_absentlist" >
+        </activity>
+        <activity
+            android:name="com.example.attendence.Absentlistformate"
+            android:label="@string/title_activity_absentlistformate" >
+        </activity>
+    </application>
+
+</manifest>

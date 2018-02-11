@@ -1,0 +1,138 @@
+
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".Attendence"
+   >
+    
+    
+
+   
+        
+         <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tabhost"
+        android:layout_centerHorizontal="true" 
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="503dp"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/userup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                         android:textColor="#fff"
+          android:textColorHint="#fff"
+            android:textStyle="italic" 
+                        android:layout_marginTop="25dp"
+                        android:ems="10"
+                        android:hint="User Name" >
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/passup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/userup"
+                         android:textColor="#fff"
+          android:textColorHint="#fff"
+            android:textStyle="italic" 
+                        android:layout_marginTop="18dp"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                         android:textColor="#fff"
+          android:textColorHint="#fff"
+            android:textStyle="italic" 
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/passup"
+                        android:layout_marginTop="18dp"
+                        android:ems="10"
+                        android:hint="Name" />
+
+                    <Spinner
+                        android:id="@+id/desig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/autoname"
+                        android:layout_marginTop="18dp" />
+
+                    <Button
+                        android:id="@+id/create"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="22dp"
+                        android:background="#dd2c00"
+                        android:text="Create Account"
+                        android:textColor="#fff"
+                        android:textStyle="italic" />
+
+                    <Spinner
+                        android:id="@+id/ug"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/desig" />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/ug"
+                        android:layout_marginTop="18dp"
+                        android:ems="10"
+                        android:maxLength="10"
+                         android:textColor="#fff"
+          android:textColorHint="#fff"
+            android:textStyle="italic" 
+                       android:hint="Phone number"
+                        android:inputType="phone" />
+                  
+                </RelativeLayout>
+
+                
+          
+        </LinearLayout>
+         </ScrollView>
+
+</RelativeLayout>
+   
+   

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/absent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="44dp"
+        android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="italic" 
+            
+        android:text="absent" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/absent"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="italic" 
+        android:text="Time"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="italic" 
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/time"
+        android:layout_marginTop="27dp"
+        android:text="subject"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="italic" 
+        android:layout_alignLeft="@+id/subject"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/subject"
+        android:layout_marginTop="17dp"
+        android:text="department"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="italic" 
+        android:layout_alignLeft="@+id/department"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/department"
+        android:layout_marginTop="22dp"
+        android:text="section"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/department"
+        android:layout_below="@+id/section"
+        android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="italic" 
+        android:layout_marginTop="20dp"
+        android:text="year"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
