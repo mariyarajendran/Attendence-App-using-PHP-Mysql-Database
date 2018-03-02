@@ -1,1 +1,1 @@
-# Attendence App using PHP Mysql Database
+# Attendance App using PHP Mysql Database
